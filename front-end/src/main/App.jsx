@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'react-fontawesome'
 
 import React from 'react'
 import Routes from './Routes'
