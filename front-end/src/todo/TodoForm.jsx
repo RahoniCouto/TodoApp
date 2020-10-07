@@ -17,8 +17,13 @@ export default props => (
         <Div cols="12 3 2">
             <Button 
                 tipo="primary" 
-                name="+"
+                name="Add"
                 onClick={props.handleAdd}
+            ></Button>
+            <Button 
+                tipo="info" 
+                name="Search"
+                onClick={props.handleSearch}
             ></Button>
         </Div>
              
