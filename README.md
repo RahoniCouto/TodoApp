@@ -1,9 +1,9 @@
 # TodoApp
 Developed based on the React course from Udemy- by Leonardo Moura Leitao.
 
-## How to install packages
+## How to install packages(BackEnd)
 
-### after cloning the repository enter the folder
+### after cloning the repository enter the BackEnd folder
 
 ```sh
 $ cd backend
@@ -23,19 +23,6 @@ $ npm install
 $ npm start
 ```
 
-## How to run the BackEnd application
-
-### yarn
-
-```sh
-$ yarn dev
-```
-
-### npm
-
-```sh
-$ npm start
-```
 
 ## How to install packages (FrontEnd)
 
@@ -43,28 +30,6 @@ $ npm start
 
 ```sh
 $ cd frontend
-```
-
-### yarn
-
-```sh
-$ yarn
-$ yarn dev
-```
-
-### npm
-
-```sh
-$ npm install
-$ npm start
-```
-
-## How to install packages (BackEnd)
-
-### after cloning the repository enter the frontend folder
-
-```sh
-$ cd backend
 ```
 
 ### yarn
