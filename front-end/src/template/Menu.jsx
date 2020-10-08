@@ -1,8 +1,9 @@
 import React from 'react'
+import { FaRegCalendarAlt } from 'react-icons/fa'
 
 export default props => (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="/todos">Todo App</a>
+        <a className="navbar-brand" href="/todos"><FaRegCalendarAlt /> Todo App</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../template/Button'
+import { GoCheck, GoSync, GoX } from 'react-icons/go'
 
 export default props => {
 
@@ -11,19 +12,19 @@ export default props => {
                 <td>
                     <Button 
                         tipo="success" 
-                        name="Finalizar"
+                        name={< GoCheck />}
                         onClick={() => props.handleAsDone(todo)}
                         hide={todo.done}
                     />
                     <Button 
                         tipo="warning" 
-                        name="Pendente"
+                        name={ < GoSync />}
                         onClick={() => props.handlePending(todo)}
                         hide={!todo.done}
                     />
                     <Button 
                         tipo="danger" 
-                        name="Remover"
+                        name={ <GoX />}
                         onClick={() => props.handleRemove(todo)}
                         hide={!todo.done}
                     />
@@ -37,7 +38,7 @@ export default props => {
         <thead>
             <tr>
                 <th>Descrição</th>
-                <th>Ações</th>
+                <th className="tableActions">Ações</th>
             </tr>
         </thead>
         <tbody>

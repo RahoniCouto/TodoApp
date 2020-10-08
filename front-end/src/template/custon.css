@@ -1,8 +1,29 @@
 .btn {
+    width: 50px;
+    padding-bottom: 2px;
     margin-right: 5px;
 }
 
 .done {
     text-decoration: line-through;
     color: #c2c2c2;
+}
+
+.tableActions {
+    width: 140px;
+}
+
+@media screen and (max-width: 576px) {
+    .mobileButtons {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mobileButtons {
+        display: flex;
+        justify-content: center;
+    }
 }
